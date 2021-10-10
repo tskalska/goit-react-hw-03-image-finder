@@ -5,7 +5,6 @@ import pictureApi from './pictureApi';
 import ImageGalleryItem from './ImageGalleryItem';
 import Button from './Button';
 import Loader from "react-loader-spinner";
-// import Modal from './Modal';
 import Modal from 'react-modal';
 
 Modal.setAppElement('#root');
@@ -130,7 +129,6 @@ class ImageGallery extends React.Component {
             modal: false,
             picture: null
           })}
-          // contentLabel="Example Modal"
            style={customStyles}
         >
             <img src={this.state.picture.largeImageURL} alt="Error" className="imgModal"></img>

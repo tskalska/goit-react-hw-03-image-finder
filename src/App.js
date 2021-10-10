@@ -26,11 +26,6 @@ class App extends React.Component  {
         <ImageGallery 
           serchRequest = {this.state.picture}>
         </ImageGallery> 
-        
-      {/* 
-     
-      
-      <Modal /> */}
     </div>
     );
   }
