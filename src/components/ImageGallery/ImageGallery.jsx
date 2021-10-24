@@ -1,9 +1,9 @@
 import React from 'react';
-import './componentsStyles/ImageGallery.css';
-import './componentsStyles/Loader.css';
-import pictureApi from './pictureApi';
-import ImageGalleryItem from './ImageGalleryItem';
-import Button from './Button';
+import './ImageGallery.css';
+import './Loader.css';
+import pictureApi from '../pictureApi';
+import ImageGalleryItem from './ImageGalleryItem/ImageGalleryItem';
+import Button from './Button/Button';
 import Loader from "react-loader-spinner";
 import Modal from 'react-modal';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './componentsStyles/Button.css'
+import './Button.module.css';
 
 export default function Button({onClickLoadMore}) {
   return ( 
